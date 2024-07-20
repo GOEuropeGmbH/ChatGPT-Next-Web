@@ -316,7 +316,7 @@ export const DEFAULT_MODELS = [
   })),
   ...alibabaModes.map((name) => ({
     name,
-    available: fals,
+    available: false,
     provider: {
       id: "alibaba",
       providerName: "Alibaba",
