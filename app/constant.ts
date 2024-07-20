@@ -307,7 +307,7 @@ export const DEFAULT_MODELS = [
   })),
   ...bytedanceModels.map((name) => ({
     name,
-    available: fals,
+    available: false,
     provider: {
       id: "bytedance",
       providerName: "ByteDance",
